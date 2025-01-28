@@ -18,6 +18,9 @@ this simple "hello cuda" example will suffice:
 
 ---
 
+> **Note:**
+> i'm using the `o1` / `o1pro` to help write the below section by giving it my `.cu` file and asking it to generate the README docs
+
 ## 1. Device Query
 
 The code uses `cudaGetDeviceCount` and `cudaGetDeviceProperties` to gather information about the system's available GPU devices. For each device, it prints key hardware specifications like:  
