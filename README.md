@@ -12,9 +12,9 @@ We will make this a playground for all things CUDA and while doing that we will 
 ## Contents
 
 1. [Overview](#overview)
-2. [Mandatory & Optional Tasks](#mandatory--optional-tasks)
+2. [Mandatory & Optional Tasks](#mandatory-and-optional-tasks)
 3. [Project Progress by Day](#project-progress-by-day)
-4. [How to Load CUDA Kernels into PyTorch](#how-to-load-cuda-kernels-into-pytorch-quick-guide)
+4. [How to Load CUDA Kernels into PyTorch (quick guide)](#how-to-load-cuda-kernels-into-pytorch-quick-guide)
 5. [How to Load CUDA Kernels into PyTorch (detailed guide)](#how-to-load-cuda-kernels-into-pytorch-detailed-guide)
 6. [References & Inspiration](#references--inspiration)
 
@@ -25,6 +25,15 @@ We will make this a playground for all things CUDA and while doing that we will 
   - Integrating custom CUDA kernels into PyTorch or other frameworks
   - Experimenting with memory layouts, shared memory, tiling, and kernel fusion
   - Building a repository of CUDA examples—from beginner-friendly to advanced training/inference ops
+
+> **Disclaimer:**
+> i'm using a windows machine
+>
+> i will create `README.md` files for each day ideally going over theory + implementation and i will use `o1` / `o1pro` to help write the README docs related to the `.cu` files for each day
+>
+> i'm not sure if this is the best way to do this but i'm just trying to provide as much context as possible while not completely wasting my time writing documentation
+>
+> i will try to keep the README docs as short as possible but i will also try to provide as much context as possible
 
 ## Mandatory and Optional Tasks
 
@@ -44,7 +53,7 @@ We will make this a playground for all things CUDA and while doing that we will 
 
 ## Project Progress by Day
 
-| Day   | File(s) / Project Name                                                                                                  | Summary & Key Learnings                                                                                                                                                                                                           |
+| Day   | File(s) / Project Name | Summary & Key Learnings |
 |:-----:|:-------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **1**  | **helloCUDA.cu** | **Device Setup**: Prints GPU device info and "Hello CUDA!" to confirm your toolchain setup. Learn about CUDA environment setup - Check GPU capabilities (cores, SM count, etc.) |
 | **2**  | **vecAdd.cu** | **Vector Addition**: Host-device memory transfers, thread indexing, kernel launches. Memory management (`cudaMalloc`, `cudaMemcpy`) - Thread indexing concepts |
